@@ -34,7 +34,7 @@ export const Dashboard = () => {
           Welcome {user?.firstName}! Here Are Your Finances:
         </h1>
         <FinancialRecordForm />
-        <div className="total-amount">Total Monthly: ${totalMonthly}</div>
+        <div className="total-amount">Total Monthly: rs{totalMonthly}</div>
         <FinancialRecordList />
       </div>
     </div>
